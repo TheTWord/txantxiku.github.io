@@ -35,23 +35,23 @@
             },
             messages: {
                 name: {
-                    required: "come on, you have a name, don't you?",
-                    minlength: "your name must consist of at least 2 characters"
+                    required: "Please enter your name",
+                    minlength: "Your name must contain at least 2 characters"
                 },
                 subject: {
-                    required: "come on, you have a subject, don't you?",
-                    minlength: "your subject must consist of at least 4 characters"
+                    required: "Please add a subject",
+                    minlength: "Your subject must contain at least 4 characters"
                 },
                 number: {
-                    required: "come on, you have a number, don't you?",
-                    minlength: "your Number must consist of at least 5 characters"
+                    required: "Please put your number",
+                    minlength: "Your number must contain at least 5 characters"
                 },
                 email: {
-                    required: "no email, no message"
+                    required: "No email, no message"
                 },
                 message: {
-                    required: "Necesitas añadir una foto para validar el mensaje.",
-                    minlength: "thats all? really?"
+                    required: "You need to type something to be sent.",
+                    minlength: "Please add something more"
                 }
             },
         })
